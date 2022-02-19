@@ -26,13 +26,13 @@ course_name varchar(255));
 use school;
 show tables;
 
-insert into student values (1234567899,'Ahmed','1993-02-11','m','2021-02-17','ahmed@gmail.com',6,'scientific',5),
-(1233567899,'huda','1993-05-11','f','2021-02-17','huda@gmail.com',5,'scientific',4.9),
+insert into student values (1234567899,'Ahmed','1999-02-11','m','2021-02-17','ahmed@gmail.com',6,'scientific',5),
+(1233567899,'deem','1993-05-11','f','2021-02-17','deem@gmail.com',5,'scientific',4.9),
 (1234562199,'sara','1998-02-01','f','2021-02-17','sara@gmail.com',2,'scientific',3.5);
 select * from student;
 
-insert into teacher values (3245,'saleh','1880-02-11','m','saleh@gmail.com','36411932'),
-(3246,'aziz','1883-02-11','m','aziz@gmail.com','36411932'),
+insert into teacher values (3245,'ali','1880-02-11','m','ali@gmail.com','36411932'),
+(3246,'reem','1883-02-11','m','reem@gmail.com','36411932'),
 (3247,'norah','1879-02-11','f','norah@gmail.com','36411932');
 select * from teacher;
 
